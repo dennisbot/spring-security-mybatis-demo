@@ -1,0 +1,13 @@
+cd C:\Users\dennis.huillca\.m2\repository\com\h2database\h2\1.4.196
+
+run: java -jar h2-1. -webAllowOthers -tcpAllowOthers
+
+additional info (user/password, etc): src/main/resources/application.yml
+
+database URL connection (using datagrip): jdbc:h2:tcp://localhost/~/spring_security
+
+run db/schema-and-data-h2.sql
+
+run your spring boot application
+
+run tests on postman (read the readme.md at the root of the project)
